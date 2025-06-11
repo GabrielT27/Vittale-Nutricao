@@ -87,8 +87,18 @@
 .fonte-destaqueb {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(252, 252, 252);
+  text-align: center;
   /* Ou qualquer outra fonte que preferir */
 }
+  .quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    position: absolute; /* Para posicionar dentro do retângulo */
+    top: 25px;  /* Distância do topo do retângulo */
+    left: 100px; /* Distância da esquerda do retângulo */
+  }
+
     </style>
 </head>
 <body>
@@ -242,24 +252,49 @@
 <!-- ...conteúdo principal... -->
 </div>
   </div>
-  <div class="container-fluid mt-5">
-  <div class="rounded-5 py-5 px-5 position-relative" style="background-color: #31552f; min-height: 500px;">
-    <h6 class="mb-5 texto-retangulo-bege">
-      <span class="fs-1 fw-bold">Avaliação de Clientes</span><br>
-      <span class="fs-5 fw-bold fonte-destaqueb">Descubra o que nossos clientes pensam sobre nosso serviço</span><br>
-      <span class="fs-4 fw-bold fonte-destaque">N</span>
-      <br>
-  <span class="fs-6" text>
-      <br>
-      c</span><br><br>
-      <small>
+<div class="container-fluid mt-5">
+  <div class="rounded-5 d-flex flex-column justify-content-start align-items-center text-center"
+       style="background-color: #31552f; min-height: 800px; padding-top: 80px;">
+    
+    <span style="font-size: 4rem; font-weight: bold; color: white;">
+      Avaliações de Clientes
+    </span>
+    
+    <p style="font-size: 1.35rem; color: white; margin-top: 25px;">
+      Descubra o que nossos clientes falam sobre nosso serviço
+    </p>
+    
+    <!-- Container dos três quadrados alinhados -->
+    <div class="d-flex justify-content-between align-items-center mt-5" style="width: 90%; max-width: 1200px;">
+      <!-- Quadrado da Esquerda -->
+      <div class="rounded-4 bg-white d-flex justify-content-center align-items-center"
+           style="width: 280px; height: 350px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <p class="text-dark p-3">"Dr. Vitor revolucionou minha alimentação! Seu plano personalizado considerou minha rotina agitada e me ensinou a fazer escolhas inteligentes sem radicalismos. Em 3 meses, atingi meu peso ideal com saúde!" ★★★★★</p>
+      </div>
+      
+      <!-- Quadrado do Meio -->
+      <div class="rounded-4 bg-white d-flex justify-content-center align-items-center mx-3"
+           style="width: 280px; height: 350px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <p class="text-dark p-3">"O acompanhamento do Vitor foi transformador! Sua abordagem humanizada e conhecimento técnico me ajudaram não só a emagrecer, mas a entender meu corpo. As consultas eram tão esclarecedoras que eu saía motivada para seguir o plano!" ★★★★★
 
-    </h6>
+</p>
+      </div>
+      
+      <!-- Quadrado da Direita -->
+      <div class="rounded-4 bg-white d-flex justify-content-center align-items-center"
+           style="width: 280px; height: 350px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <p class="text-dark p-3">"Como nutricionista, o Vitor é excepcional! Suas orientações práticas se adaptaram ao meu dia a dia e aos meus gostos pessoais. Perdi 8kg comendo bem, sem passar fome ou seguir dietas malucas. Recomendo demais!" ★★★★★
+
+</p>
+      </div>
+    </div>
+    
+    
+    
+    
+
     </small>
-    <img src="fiote.jfif" alt="Foto canto direito"
-      class="retangulo-verde-img"
-      style="position: absolute; top: 60px; right: 30px; width: 380px; height: 380px; object-fit: cover; border-radius: 10%;">
-  </div>
+    </div>
 </div>
 
 
