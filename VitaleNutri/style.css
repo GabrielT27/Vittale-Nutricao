@@ -80,11 +80,43 @@
   text-align: center;
   /* Ou qualquer outra fonte que preferir */
 }
-  .quadrado {
-    width: 100px;
-    height: 100px;
-    background-color: coral;
-    position: absolute; /* Para posicionar dentro do retângulo */
-    top: 25px;  /* Distância do topo do retângulo */
-    left: 100px; /* Distância da esquerda do retângulo */
-  }
+
+  .card-container-dicas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.card-dicas {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 240px;
+  text-align: center;
+  flex: 1 1 150px;
+}
+
+.card-img-dicas {
+  width: 200%;
+  height: auto;
+  display: block;
+}
+
+.card-button-dicas {
+  background-color: #007bff;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 9px;
+  font-size: 1em;
+  width: 100%;
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+  border-radius: 29px;
+}
+
+.card-button-dicas:hover {
+  background-color: #0056b3;
+}
