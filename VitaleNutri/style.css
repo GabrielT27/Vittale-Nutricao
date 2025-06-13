@@ -1,0 +1,90 @@
+ .navbar-nav .nav-link {
+        font-size: 1.25rem;
+      }
+      .navbar-brand {
+        font-size: 2rem;
+      }
+      /* Carrossel centralizado e com largura máxima */
+      .carousel-custom {
+        max-width: 80%;
+        margin: 40px auto 0;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 16px rgba(0,0,0,0.12);
+      }
+      .carousel-inner {
+        max-height: 450px;
+      }
+      .carousel-inner img {
+        height: 450px;
+        object-fit: cover;
+        width: 100%;
+      }
+.texto-retangulo-verde {
+  color: #e1e1e1;
+  text-align: left;
+  padding-right: 380px;
+  font-family: 'Montserrat', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+.texto-retangulo-bege {
+  color: #fff;
+  text-align: center;
+  padding-right: 380px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+   html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .conteudo {
+      min-height: calc(100vh - 120px); /* altura total - altura do rodapé */
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    footer {
+      height: 120px;
+      background-color: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    a {
+      color: #00e676;
+      text-decoration: none;
+    }
+@media (max-width: 900px) {
+  .texto-retangulo-verde {
+    padding-right: 0 !important;
+  }
+  .retangulo-verde-img {
+    position: static !important;
+    display: block;
+    margin: 30px auto 0 auto;
+    width: 90vw !important;
+    height: auto !important;
+    max-width: 320px;
+  }
+}
+.fonte-destaque {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aquamarine;
+  /* Ou qualquer outra fonte que preferir */
+}
+.fonte-destaqueb {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  /* Ou qualquer outra fonte que preferir */
+}
+  .quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    position: absolute; /* Para posicionar dentro do retângulo */
+    top: 25px;  /* Distância do topo do retângulo */
+    left: 100px; /* Distância da esquerda do retângulo */
+  }
