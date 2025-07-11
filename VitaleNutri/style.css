@@ -21,16 +21,16 @@
         width: 100%;
       }
 .texto-retangulo-verde {
-  color: #e1e1e1;
+  color: #000000;
   text-align: left;
   padding-right: 380px;
-  font-family: 'Montserrat', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Comic Sans MS, Comic Sans, cursive
 }
 .texto-retangulo-bege {
   color: #fff;
   text-align: center;
   padding-right: 380px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Comic Sans MS, Comic Sans, cursive;
 }
    html, body {
       height: 100%;
@@ -63,7 +63,7 @@
   .retangulo-verde-img {
     position: static !important;
     display: block;
-    margin: 30px auto 0 auto;
+    margin: 30px auto 10 auto;
     width: 90vw !important;
     height: auto !important;
     max-width: 320px;
