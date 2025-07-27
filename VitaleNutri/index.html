@@ -6,7 +6,12 @@
     <title>Hello, World</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    
 </head>
 <body>
@@ -71,12 +76,13 @@
   <!-- FIM DO CARROSSEL -->
 
   <!-- Retângulo colorido entre carrossel e cards -->
+   <div data-aos="fade-down" data-aos-duration="1000">
   <div class="container-fluid mt-5">
-  <div class="rounded-5 py-5 px-5 position-relative"
+  <div class="rounded-5 py-5 px-5"
        style="background-image: url('8c7f5662-fb18-40d0-b6c6-d155efd3a81b.jpg'); background-size: cover; background-position: center; min-height: 500px;">
     <!-- ...restante do conteúdo... -->
-    <h6 class="mb-5 texto-retangulo-verde">
-      <span class="fs-3 fw-bold">Conheça</span><br>
+    <h6 class="mb-5 texto-retangulo-verde ">
+      <span class="fs-3 fw-bold ">Conheça</span><br>
       <span class="fs-1 fw-bold fonte-destaque">Victor Santos</span><br>
       <span class="fs-4 fw-bold fonte-destaque">Nutri</span>
       <br>
@@ -101,6 +107,7 @@
       style="position: absolute; top: 160px; right: 30px; width: 380px; height: 380px; object-fit: cover; border-radius: 10%;">
   </div>
 </div>
+<div data-aos="fade-down" data-aos-duration="1000">
 <div class="my-5">
   <div class="rounded-5 py-5 position-relative text-white"
        style="background-image: url('fundo.jpeg'); background-size: cover; background-position: center; min-height: 660px;">
@@ -161,6 +168,7 @@
 <!-- ...conteúdo principal... -->
 </div>
   </div>
+  <div data-aos="fade-down" data-aos-duration="1000">
 <div class="container-fluid mt-5">
   <div class="rounded-5 d-flex flex-column justify-content-start align-items-center text-center"
        style="background-color: #31552f; min-height: 800px; padding-top: 80px;">
@@ -206,7 +214,7 @@
     </div>
 </div>
 <br>
-
+<div data-aos="fade-down" data-aos-duration="1000">
 <div class="container-fluid py-5" style="background-image: url(apple-e-barra-de-energia-perto-de-material-esportivo.jpg); background-size: cover; background-position: center;">
   <div class="container">
     <h2 class="text-center mb-3" 
@@ -214,14 +222,14 @@
   Dicas e Conteúdos
 </h2>
     <div class="card-container-dicas">
-      <div class="card-dicas">
+      <div class="card-dicas animate__animated animate__zoomInUp" >
         <img src="CardCorre.jfif" alt="Dica 1" class="card-img-dicas">
         <a href="nutri5.webp"> <span style="position: absolute; top: 5px; left: 40px; color: white; font-size: 2rem; font-weight: bold; text-shadow: 2px 2px 8px #000;">
       PROCESSO
     </span></a>
         <button class="card-button-dicas">Saber mais</button>
       </div>
-      <div class="card-dicas">
+      <div class="card-dicas animate__animated animate__zoomInUp" >
         <img src="Acad" alt="Dica 2" class="card-img-dicas">
         <a href=""></a>
          <span style="position: absolute; top: 5px; left: 40px; color: white; font-size: 2rem; font-weight: bold; text-shadow: 2px 2px 8px #000;">
@@ -229,7 +237,7 @@
     </span>
         <button class="card-button-dicas">Saber mais</button>
       </div>
-      <div class="card-dicas">
+      <div class="card-dicas animate__animated animate__zoomInUp" >
         <img src="CorreR.jfif" alt="Dica 3" class="card-img-dicas">
         <a href="">
            <span style="position: absolute; top: 5px; left: 30px; color: white; font-size: 2rem; font-weight: bold; text-shadow: 2px 2px 8px #000;">
@@ -238,7 +246,7 @@
         </a>
         <button class="card-button-dicas">Saber mais</button>
       </div>
-      <div class="card-dicas">
+      <div class="card-dicas animate__animated animate__zoomInUp" >
         <img src="Chave.jfif" alt="Dica 3" class="card-img-dicas" >
         <a href=""></a>
          <span style="position: absolute; top: 5px; left: 7px; color: white; font-size: 2rem; font-weight: bold; text-shadow: 2px 2px 8px #000;">
@@ -252,13 +260,15 @@
 </div>
 <br>
  <!-- Exemplo de texto ao lado da imagem -->
+  <div data-aos="fade-down" data-aos-duration="1000">
 <div style="display: flex; align-items: center;">
   <a href="https://www.google.com/maps/place/R.+Frei+Antonio+de+Sant+'ana+Galv%C3%A3o+-+Jardim+Res.+Guimaraes,+Limeira+-+SP/data=!4m2!3m1!1s0x94c881b6d2508e55:0x91f563d83d4e5339?sa=X&ved=1t:242&ictx=111">
   <img src="MAPA.png" alt="Descrição" style="width: 650px; height: auto; margin-right: 50px; border-radius: 49px;">
   
   </a>
-  
+
   <div>
+    
     <h3>Onde estamos localizados??</h3>
     <p>R. Frei Antonio de Sant 'ana Galvão - Jardim Res. Guimaraes.</p>
   </div>
@@ -281,7 +291,12 @@
   <p>&copy: 20205 fsdjskfacsa</p>
   <p>email:fasjfksjdfodhfkjsjjas</p>
 </footer>
+
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

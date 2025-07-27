@@ -1,3 +1,10 @@
+@keyframes animacao {
+  from{background-color: #7917c9;}
+  to{background-color: #00e676;}
+} 
+
+ 
+ 
  .navbar-nav .nav-link {
         font-size: 1.25rem;
       }
@@ -24,7 +31,7 @@
   color: #000000;
   text-align: left;
   padding-right: 380px;
-  font-family: Comic Sans MS, Comic Sans, cursive
+  font-family: Comic Sans MS, Comic Sans, cursive;
 }
 .texto-retangulo-bege {
   color: #fff;
